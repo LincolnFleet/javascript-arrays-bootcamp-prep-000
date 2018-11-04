@@ -14,3 +14,8 @@ function addElementToEndOfArray(a, b) {
   c = [...a, `${b}`]
   return c
 }
+
+function destructivelyAddElementToEndOfArray(a, b) {
+  a.push(`${b}`)
+  return a
+}
