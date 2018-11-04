@@ -38,3 +38,8 @@ function destructivelyRemoveElementFromEndOfArray(a) {
   a.pop()
   return a
 }
+
+function removeElementFromEndOfArray(a) {
+  b = a.slice(0, -1)
+  return b
+}
