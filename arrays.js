@@ -9,3 +9,8 @@ function destructivelyAddElementToBeginningOfArray(a, b) {
   a.unshift(`${b}`)
   return a
 }
+
+function addElementToEndOfArray(a, b) {
+  c = [...a, `${b}`]
+  return c
+}
